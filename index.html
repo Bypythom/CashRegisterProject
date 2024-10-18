@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cash Register</title>
+</head>
+<body>
+
+  <!-- Main Header Section -->
+  <header>
+    <h1>freeCodeCamp(ˆˆ)</h1>
+    <h2>Cash Register Project</h2>
+  </header>
+
+  <!-- Status Section -->
+  <section>
+    <p>Status: </p>
+    <p>QUARTER: </p>
+    <p>DIME: </p>
+    <p>PENNY: </p>
+  </section>
+
+  <!-- Input Section -->
+  <section>
+    <label for="cash">Enter cash from customer:</label>
+    <input id="cash" type="number" />
+  </section>
+
+  <!-- Change Due Section -->
+  <section>
+    <p id="change-due"></p>
+  </section>
+
+  <!-- Purchase Button -->
+  <div>
+    <button id="purchase-btn">Purchase</button>
+  </div>
+
+  <!-- Total Section -->
+  <section>
+    <p>Total: <span id="total-price"></span></p>
+  </section>
+
+  <!-- Cash in Drawer Section -->
+  <section class="change-drawer">
+    <p>Change in drawer:</p>
+    <p id="change-in-drawer"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
